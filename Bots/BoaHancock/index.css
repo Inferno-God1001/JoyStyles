@@ -18,7 +18,7 @@
 .title {
       justify-self: center;
       font-weight: bold;
-      animation: mudarCor 20s infinite; /* duração bem lenta */
+      animation: mudarCor 20s infinite;
       transition: color 3s;
     }
 
