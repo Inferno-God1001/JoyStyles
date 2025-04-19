@@ -1,0 +1,43 @@
+body, html {
+  background-color: red;
+}
+
+.contentMom {
+  background-color: #282828;
+  height: auto;
+  width: auto;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.content {
+  color: #eeeeee;
+  font-family: Kanit;
+}
+
+.version {
+  color: #727272;
+}
+
+.title {
+      justify-self: center;
+      font-weight: bold;
+      animation: mudarCor 20s infinite; /* duração bem lenta */
+      transition: color 3s;
+    }
+
+    @keyframes mudarCor {
+      0%   { color: red; }
+      25%  { color: orange; }
+      50%  { color: yellow; }
+      75%  { color: green; }
+      100% { color: blue; }
+    }
+    
+  .avatari {
+    color: ;
+    background-color: #666666;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
