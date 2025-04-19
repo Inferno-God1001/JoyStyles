@@ -1,3 +1,11 @@
-.divY {
-  color: #f50000;
+.contentMom {
+  background-color: #282828;
+  height: auto;
+  width: auto;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.content {
+  color: #eeeeee;
 }
