@@ -1,0 +1,9 @@
+body, html {
+  font-family: Sans-Serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+p {
+  font-size: 40px;
+}
