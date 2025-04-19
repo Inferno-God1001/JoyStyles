@@ -1,7 +1,3 @@
-body, html {
-  background-color: red;
-}
-
 .contentMom {
   background-color: #282828;
   height: auto;
@@ -35,9 +31,38 @@ body, html {
     }
     
   .avatari {
-    color: ;
+    color: #cb0707;
     background-color: #666666;
     padding: 3px;
     font-size: 14px;
     border-radius: 10px;
+  }
+  
+.body-text {
+  background-color: black;
+}
+
+.main {
+  background-color: #0016f563;
+}
+
+.title-text {
+  color: #c68300;
+}
+
+.send-box {
+  animation: mudarCorDois 20s infinite; /* duração bem lenta */
+ transition: color 3s;
+}
+
+@keyframes mudarCorDois {
+      0%   { color: blue; }
+      25%  { color: #02e6e1; }
+      50%  { color: #24f1a3; }
+      75%  { color: #6dea00; }
+      100% { color: #7600d4; }
+    }
+    
+  .img-box {
+    background: black;
   }
