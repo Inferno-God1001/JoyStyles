@@ -51,7 +51,7 @@
 }
 
 .send-box {
-  animation: mudarCorDois 20s infinite; /* duração bem lenta */
+  animation: mudarCorDois 20s infinite;
  transition: color 3s;
 }
 
