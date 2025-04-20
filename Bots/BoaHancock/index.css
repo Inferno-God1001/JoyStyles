@@ -111,6 +111,6 @@ body {
    }
 
 .chat-footer {
-      background-color: #30303093;
+      background-color: red;
       box-shadow: var(--chat);
    }
