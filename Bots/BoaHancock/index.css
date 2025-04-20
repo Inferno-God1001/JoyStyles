@@ -13,16 +13,17 @@
 
 .version {
   color: #727272;
+  font-size: 10px;
 }
 
 .title {
       justify-self: center;
       font-weight: bold;
-      animation: mudarCor 20s infinite; /* duração bem lenta */
+      animation: mudarCor 20s infinite;
       transition: color 3s;
     }
 
-    @keyframes mudarCor {
+@keyframes mudarCor {
       0%   { color: red; }
       25%  { color: orange; }
       50%  { color: yellow; }
@@ -30,7 +31,7 @@
       100% { color: blue; }
     }
     
-  .avatari {
+.avatari {
     color: #cb0707;
     background-color: #666666;
     padding: 3px;
@@ -43,7 +44,8 @@
 }
 
 .main {
-  background-color: #0016f563;
+  background-color: #24a7ff8b;
+  border: #3161f1ab solid 15px;
 }
 
 .title-text {
@@ -51,7 +53,7 @@
 }
 
 .send {
-  animation: mudarCorDois 20s infinite; /* duração bem lenta */
+  animation: mudarCorDois 20s infinite;
  transition: color 3s;
 }
 
@@ -63,11 +65,15 @@
       100% { color: #7600d4; }
     }
   
-  .stream {
+.stream {
     background-color: black;
   }
 
 .suggest-content-text {
-   font-color: red;
+  color: #dd9c33ef;
 }
-  
+
+.suggest-content-text:hover {
+  color:#895800 ;
+  transform: scale(0.90);
+}
