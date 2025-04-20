@@ -88,18 +88,11 @@ body {
   font-family sans serif;
 }
 
-.stream, .scroll-touch {
+.scroll-touch {
   background-image: url(Img-imagens/09d1db9058dd21f852650303192c371f.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.stream, .scroll-touch::before {
- content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
+  b
 }
