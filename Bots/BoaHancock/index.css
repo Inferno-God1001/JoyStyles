@@ -1,3 +1,11 @@
+body, html {
+  background-color: black;
+}
+
+:root {
+  --sdw: 0px 0px 30px 1px rgba(250, 250, 250, 0.8);
+}
+
 .contentMom {
   background-color: #282828;
   height: auto;
@@ -80,9 +88,13 @@
 
 .intro {
   color: #1a2af6bb;
-  font-style: italic;
 }
 
 .ant-btn, .btn, .send, .ant-btn-icon-only {
   background-color: #c30687;
+}
+
+.text {
+  color: #02538fdf;
+  box-shadow: var(--sdw);
 }
