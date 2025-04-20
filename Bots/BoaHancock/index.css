@@ -89,16 +89,3 @@ body, html {
 .intro {
   color: #1a2af6bb;
 }
-
-.ant-btn, .btn, .send, .ant-btn-icon-only {
-  background-color: #c30687;
-}
-
-.text {
-  color: #02538fdf;
-  box-shadow: var(--sdw);
-}
-
-.icon-container, .persona-main  {
-  box-shadow: var(--sdw);
-}
