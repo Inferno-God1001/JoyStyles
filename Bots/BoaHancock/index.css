@@ -8,11 +8,11 @@
 
 .content {
   color: #eeeeee;
+  font-family: Kanit;
 }
 
 .version {
   color: #727272;
-  font-size: 10px;
 }
 
 .title {
@@ -40,11 +40,6 @@
   
 .body-text {
   background-color: black;
-}
-
-.main {
-  background-color: #24a7ff8b;
-  border: #3161f1ab solid 15px;
 }
 
 .title-text {
@@ -76,4 +71,8 @@
   color:#895800 ;
   transform: scale(0.90);
 }
-  
+
+.background-text-container, .background-text {
+  background-color: #24a7ff8b;
+  border: #3161f1ab solid 5px;
+}
