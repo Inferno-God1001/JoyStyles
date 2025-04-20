@@ -4,6 +4,7 @@ body {
 
 :root {
   --sdw: 0px 0px 30px 0px rgba(250, 250, 250, 0.4);
+  --chat: 0px 0px 30px 0px rgba(255,255,255,0.356);
 }
 
 .contentMom {
@@ -38,7 +39,7 @@ body {
       75%  { color: green; }
       100% { color: blue; }
     }
-    
+
 .avatari {
     color: #cb0707;
     background-color: #666666;
@@ -46,7 +47,7 @@ body {
     font-size: 14px;
     border-radius: 10px;
   }
-  
+
 .body-text {
   background-color: black;
 }
@@ -63,7 +64,7 @@ body {
       75%  { color: #6dea00; }
       100% { color: #7600d4; }
     }
-  
+
 .stream {
     background-color: black;
   }
@@ -81,11 +82,6 @@ body {
   background-color: #20c5f747;
   border: #3161f1ab solid 2px;
   border-radius: 17px;
-}
-
-.intro {
-  color: #1a2af6bb;
-  font-family sans serif;
 }
 
 .scroll-touch {
@@ -111,4 +107,10 @@ body {
 
 .scroll-touch > * {
       position: relative;
-      z-index: 1;
+      z-index: 1; 
+   }
+
+.chat-footer, .main-fluid {
+      background-color: #30303093;
+      box-shadow: var(--chat);
+   }
