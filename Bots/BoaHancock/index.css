@@ -101,12 +101,16 @@ body {
 
 .scroll-touch::before {
   content: "";
-  position: fixed; /* FIXO na tela! */
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  right: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
   pointer-events: none;
 }
+
+.scroll-touch * {
+  position: relative;
+  z-index: 2;
