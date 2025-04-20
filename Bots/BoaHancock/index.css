@@ -23,11 +23,12 @@ body, html {
   color: #727272;
 }
 
-.title {
+.title-text {
       justify-self: center;
       font-weight: bold;
       animation: mudarCor 20s infinite;
       transition: color 3s;
+      font-family: bold;
     }
 
 @keyframes mudarCor {
@@ -48,10 +49,6 @@ body, html {
   
 .body-text {
   background-color: black;
-}
-
-.title-text {
-  color: #c68300;
 }
 
 .send {
