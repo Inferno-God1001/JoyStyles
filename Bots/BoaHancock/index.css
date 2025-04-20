@@ -73,6 +73,7 @@
 }
 
 .background-text-container, .background-text {
-  background-color: #24a7ff8b;
-  border: #3161f1ab solid 5px;
+  background-color: #20c5f747;
+  border: #3161f1ab solid 2px;
+  border-radius: 17px;
 }
