@@ -77,3 +77,12 @@
   border: #3161f1ab solid 2px;
   border-radius: 17px;
 }
+
+.intro {
+  color: #1a2af6bb;
+  font-style: italic;
+}
+
+.ant-btn, .btn, .send, .ant-btn-icon-only {
+  background-color: #c30687;
+}
