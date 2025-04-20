@@ -88,6 +88,6 @@ body, html {
   font-family sans serif;
 }
 
-html.theme-dark .chat-main-container {
+theme-dark {
   background-image: url(Img-imagens/09d1db9058dd21f852650303192c371f.gif);
 }
