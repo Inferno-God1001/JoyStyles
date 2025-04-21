@@ -136,3 +136,8 @@ body {
   background-color: #0e5f6de6;
   border: #bebebec5 solid 1px;
 }
+
+.main-fluid {
+      display: none;
+      background-color: red;
+}
