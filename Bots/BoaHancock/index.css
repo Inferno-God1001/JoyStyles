@@ -111,10 +111,10 @@ body {
    }
 
 .chat-footer {
-      background-color: rgba(0,0,0,0.614);
+      background-color: red;
       box-shadow: var(--chat);
       border-radius: 15px 15px 0 0;
-      height: 15px;
+      height: 26px;
    }
 
 .desc {
