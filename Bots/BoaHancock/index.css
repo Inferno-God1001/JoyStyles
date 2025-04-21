@@ -84,7 +84,7 @@ body {
   border-radius: 17px;
 }
 
-.chat-main {
+.scroll-touch {
       position: relative;
       min-height: 100vh;
       background: url('Img-imagens/09d1db9058dd21f852650303192c371f.gif') no-repeat center center / cover;
@@ -93,7 +93,7 @@ body {
       overflow: hidden;
     }
 
-.chat-main::before {
+.scroll-touch::before {
       content: "";
       position: fixed;
       top: 0;
@@ -105,7 +105,7 @@ body {
       pointer-events: none;
     }
 
-.chat-main > * {
+.scroll-touch > * {
       position: relative;
       z-index: 1; 
    }
@@ -133,4 +133,8 @@ body {
 .body-text, .robot-text, .last-text {
   background-color: #0e5f6de6;
   border: #bebebec5 solid 1px;
+}
+
+.chat-main {
+     height: 100vh
 }
