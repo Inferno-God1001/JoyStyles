@@ -110,7 +110,7 @@ body {
       z-index: 1; 
    }
 
-.chat-footer, .chat-main {
+.chat-footer {
       background-color: #ffffff6c;
       box-shadow: var(--chat);
       height: 0;
