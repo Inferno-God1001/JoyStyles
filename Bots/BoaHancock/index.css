@@ -114,7 +114,7 @@ body {
       background-color: red;
       box-shadow: var(--chat);
       border-radius: 15px 15px 0 0;
-      height: 26px;
+      height: 66px;
    }
 
 .desc {
