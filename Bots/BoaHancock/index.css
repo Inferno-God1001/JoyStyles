@@ -120,3 +120,7 @@ body {
 .desc {
   color: white;
    }
+
+.ant-row, .row-class {
+  color: red;
+}
