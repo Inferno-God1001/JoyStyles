@@ -113,12 +113,9 @@ body {
 .chat-footer {
       background-color: rgba(0,0,0,0.614);
       box-shadow: var(--chat);
+      border-radius: 15px 0 0 15px;
    }
 
 .desc {
   color: white;
    }
-
-.ant-row, .row-class {
-  color: red;
-}
