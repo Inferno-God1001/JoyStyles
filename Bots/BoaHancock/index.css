@@ -114,3 +114,7 @@ body {
       background-color: none;
       box-shadow: var(--chat);
    }
+
+.desc {
+  color: #212121ad;
+   }
