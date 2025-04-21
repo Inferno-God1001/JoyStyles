@@ -138,6 +138,6 @@ body {
 }
 
 .main-fluid {
-      display: none;
       background-color: red;
+      height: 100%;
 }
