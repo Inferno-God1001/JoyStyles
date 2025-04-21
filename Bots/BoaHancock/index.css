@@ -110,7 +110,7 @@ body {
       z-index: 1; 
    }
 
-.chat-footer {
+.chat-footer:nth-child(1) {
       background-color: transparent;
       opacity: 0.5;
       background-img: none;
@@ -118,6 +118,10 @@ body {
       border-radius: 15px 15px 0 0;
       height: 66px;
    }
+
+.chat-footer:nth-child(2) {
+      display: none;
+}
 
 .desc {
   color: white;
