@@ -112,6 +112,7 @@ body {
 
 .chat-footer {
       background-color: red;
+      background-img: none;
       box-shadow: var(--chat);
       border-radius: 15px 15px 0 0;
       height: 66px;
@@ -120,3 +121,7 @@ body {
 .desc {
   color: white;
    }
+
+.chat-operate {
+  z-index: 30;
+}
