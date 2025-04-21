@@ -110,9 +110,11 @@ body {
       z-index: 1; 
    }
 
-.chat-footer, .main-fluid * {
-      background-color: red !important;
-      
+.chat-footer {
+      background-color: rgba(27,27,27,0.608) !important;
+      background-img: none;
+      box-shadow: var(--chat);
+      border-radius: 15px 15px 0 0;
 }
 
 .chat-footer::before,
