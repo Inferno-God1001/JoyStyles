@@ -84,7 +84,7 @@ body {
   border-radius: 17px;
 }
 
-.scroll-touch {
+.chat-main {
       position: relative;
       min-height: 100vh;
       background: url('Img-imagens/09d1db9058dd21f852650303192c371f.gif') no-repeat center center / cover;
@@ -93,7 +93,7 @@ body {
       overflow: hidden;
     }
 
-.scroll-touch::before {
+.chat-main::before {
       content: "";
       position: fixed;
       top: 0;
@@ -105,7 +105,7 @@ body {
       pointer-events: none;
     }
 
-.scroll-touch > * {
+.chat-main > * {
       position: relative;
       z-index: 1; 
    }
@@ -134,7 +134,3 @@ body {
   background-color: #0e5f6de6;
   border: #bebebec5 solid 1px;
 }
-
-.chat-main {
-    background-color: transparent;
-    }
