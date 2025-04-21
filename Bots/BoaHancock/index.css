@@ -118,6 +118,11 @@ body {
       border-radius: 15px 15px 0 0;
 }
 
+.chat-footer::before,
+.chat-footer::after {
+  display: none !important;
+}
+
 .main-fluid {
       background-color: transparent !important;
 }
