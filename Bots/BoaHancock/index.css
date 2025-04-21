@@ -110,17 +110,12 @@ body {
       z-index: 1; 
    }
 
-.chat-footer:nth-child(1) {
+.chat-footer {
       background-color: transparent;
       opacity: 0.5;
       background-img: none;
       box-shadow: var(--chat);
       border-radius: 15px 15px 0 0;
-      height: 66px;
-   }
-
-.chat-footer:nth-child(2) {
-      display: none;
 }
 
 .desc {
