@@ -129,3 +129,8 @@ body {
 .chat-operate {
   z-index: 30;
 }
+
+.body-text, .robot-text, .last-text {
+  background-color: #74b3b0c9;
+  border: #bebebec5 solid 1px;
+}
