@@ -136,5 +136,5 @@ body {
 }
 
 .chat-main {
-     height: 100vh
+     z-index: -2 !important;
 }
