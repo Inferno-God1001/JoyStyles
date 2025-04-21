@@ -111,10 +111,10 @@ body {
    }
 
 .chat-footer, .chat-main {
-      background-color: none;
+      background-color: #ffffff6c;
       box-shadow: var(--chat);
    }
 
 .desc {
-  color: #212121ad;
+  color: #81818189;
    }
