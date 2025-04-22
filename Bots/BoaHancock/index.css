@@ -136,5 +136,7 @@ body {
 }
 
 .chat-main {
-     z-index: -2 !important;
+     z-index: -2;
+     background-color: blue;
+     border-radius: 15px 15px 0 0;
 }
