@@ -1,0 +1,38 @@
+/*indexJL Start*/
+
+.title-text {
+  color: rgb(0,155,3);
+}
+
+.scroll-touch {
+  background-image: url('Img-imagens/09d1db9058dd21f852650303192c371f.gif') !important;
+  background-color: #10ff0b !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll-touch::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.scroll-touch > * {
+ position: relative;
+ z-index: 1;
+}
+
+.chat-footer {
+  border-radius: 15px 15px 0 0;
+  height: 80px !important;
+  width: 100vw !important;
+  border: rgba(54,54,54,0.829) solid 1px;
+}
