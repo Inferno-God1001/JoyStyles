@@ -1,11 +1,7 @@
-body {
-  background-color: black;
-}
-
 :root {
   --sdw: 0px 0px 30px 0px rgba(250, 250, 250, 0.4);
   --chat: 0px 0px 30px 0px rgba(255,255,255,0.356);
-}
+    }
 
 .contentMom {
   background-color: #282828;
@@ -13,16 +9,16 @@ body {
   width: auto;
   padding: 16px;
   border-radius: 20px;
-}
+    }
 
 .content {
   color: #eeeeee;
   font-family: Kanit;
-}
+    }
 
 .version {
   color: #727272;
-}
+    }
 
 .title-text {
       justify-self: center;
@@ -46,16 +42,16 @@ body {
     padding: 3px;
     font-size: 14px;
     border-radius: 10px;
-  }
+    }
 
 .body-text {
   background-color: black;
-}
+    }
 
 .send {
   animation: mudarCorDois 20s infinite;
  transition: color 3s;
-}
+    }
 
 @keyframes mudarCorDois {
       0%   { color: blue; }
@@ -67,24 +63,24 @@ body {
 
 .stream {
     background-color: black;
-  }
+     }
 
 .suggest-content-text {
   color: #dd9c33ef;
-}
+     }
 
 .suggest-content-text:hover {
   color:#895800 ;
   transform: scale(0.90);
-}
+     }
 
 .background-text-container, .background-text {
   background-color: #20c5f747;
   border: #3161f1ab solid 2px;
   border-radius: 17px;
-}
+    }
 
-.scroll-touch {
+.chat-main {
       position: relative;
       min-height: 100vh;
       background: url('Img-imagens/09d1db9058dd21f852650303192c371f.gif') no-repeat center center / cover;
@@ -93,7 +89,7 @@ body {
       overflow: hidden;
     }
 
-.scroll-touch::before {
+.chat-main::before {
       content: "";
       position: fixed;
       top: 0;
@@ -105,38 +101,42 @@ body {
       pointer-events: none;
     }
 
-.scroll-touch > * {
+.chat-main > * {
       position: relative;
       z-index: 1; 
-   }
+    }
 
-.chat-footer {
+.chat-main {
       background-color: red !important;
       background-img: none;
       box-shadow: var(--chat);
       border-radius: 15px 15px 0 0;
-}
+    }
 
-.chat-footer::before,
-.chat-footer::after {
+.chat-main::before,
+.chat-main::after {
   display: none !important;
-}
+    }
 
 .desc {
   color: white;
-   }
+    }
 
 .chat-operate {
   z-index: 30;
-}
+    }
 
 .body-text, .robot-text, .last-text {
   background-color: #0e5f6de6;
   border: #bebebec5 solid 1px;
-}
+    }
 
 .chat-main {
      z-index: -2;
      background-color: blue;
      border-radius: 15px 15px 0 0;
-}
+    }
+
+.chat-footer {
+    background-color: transparent !important;
+    }
