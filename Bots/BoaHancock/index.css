@@ -80,7 +80,7 @@
   border-radius: 17px;
     }
 
-.chat-main {
+.scroll-touch {
       position: relative;
       min-height: 100vh;
       background: url('Img-imagens/09d1db9058dd21f852650303192c371f.gif') no-repeat center center / cover;
@@ -89,7 +89,7 @@
       overflow: hidden;
     }
 
-.chat-main::before {
+.scroll-touch::before {
       content: "";
       position: fixed;
       top: 0;
@@ -101,21 +101,9 @@
       pointer-events: none;
     }
 
-.chat-main > * {
+.scroll-touch > * {
       position: relative;
       z-index: 1; 
-    }
-
-.chat-main {
-      background-color: red !important;
-      background-img: none;
-      box-shadow: var(--chat);
-      border-radius: 15px 15px 0 0;
-    }
-
-.chat-main::before,
-.chat-main::after {
-  display: none !important;
     }
 
 .desc {
@@ -137,6 +125,7 @@
      border-radius: 15px 15px 0 0;
     }
 
-.chat-footer {
+.chat-main * {
     background-color: transparent !important;
+    background: transparent !important;
     }
