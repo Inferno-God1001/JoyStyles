@@ -119,12 +119,6 @@
   border: #bebebec5 solid 1px;
     }
 
-.chat-main {
-     z-index: -2;
-     background-color: blue;
-     border-radius: 15px 15px 0 0;
-    }
-
 .chat-main * {
     background-color: transparent !important;
     background: transparent !important;
