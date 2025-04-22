@@ -40,3 +40,11 @@
 .chat-header-main {
   z-index: 21;
 }
+
+/*scenario content*/
+.collapse-content {
+  background-color: rgba(24,159,164,0.593) !important;
+  border: #14a5fbd1 solid 1px;
+  border-radius: 17px;
+}
+/*_*/
