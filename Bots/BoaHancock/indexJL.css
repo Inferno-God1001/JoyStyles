@@ -32,7 +32,11 @@
 
 .chat-footer {
   border-radius: 15px 15px 0 0;
-  height: 80px !important;
+  height: 88px !important;
   width: 100vw !important;
   border: rgba(54,54,54,0.829) solid 1px;
+}
+
+.chat-header-main {
+  z-index: 21;
 }
