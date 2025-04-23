@@ -1,0 +1,36 @@
+/*message start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.frame-content-control {
+  background-color: rgba(0,53,161,0.698);
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.frame-content {
+  color: rgba(0,0,0,0.938);
+}
+
+.frame-title {
+  justify-self: center;
+  color: rgba(61,110,204,0.923);
+  font-family: 'Lexend', sans-serif;
+}
+
+.avatar-prefix-char {
+  color: #8c0000;
+}
+
+.extra-prefix {
+  color: #9b8100;
+}
+
+.version-number {
+  color: #7c7676;
+  font-size: 9px;
+}
+
+/*message end*/
