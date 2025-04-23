@@ -4,8 +4,8 @@
 
 .frame-content-control {
   background-color: rgba(0,91,234,0.306);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   height: auto;
   width: auto;
   padding: 10px;
