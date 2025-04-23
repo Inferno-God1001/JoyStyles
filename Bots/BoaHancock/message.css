@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 .frame-content-control {
-  background-color: rgba(0,153,243,0.396);
+  background-color: rgba(0,71,116,0.627);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   height: auto;
   width: auto;
   padding: 10px;
