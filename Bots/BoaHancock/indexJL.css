@@ -32,7 +32,8 @@
 
 .chat-footer {
   border-radius: 15px 15px 0 0;
-  height: 92px !important;
+  min-height: 92px !important;
+  height: auto !important;
   width: 100% !important;
   border: rgba(54,54,54,0.829) solid 1px;
 }
