@@ -1,5 +1,9 @@
 /*indexJL Start*/
 
+body, html {
+  background-color: #262626;
+}
+
 .title-text {
   color: rgb(0,155,3);
 }
