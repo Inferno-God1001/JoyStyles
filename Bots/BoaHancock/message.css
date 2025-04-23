@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 .frame-content-control {
-  background-color: rgba(0,91,234,0.306);
+  background-color: rgba(0,57,187,0.584);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   height: auto;
   width: auto;
   padding: 10px;
   border-radius: 20px;
-  border: #0091b6 solid 1px;
+  border: #1275ffac solid 1px;
 }
 
 .frame-content {
