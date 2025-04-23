@@ -65,3 +65,8 @@ body, html {
   display: none !important;
 }
 
+.content-box {
+  background-color: (0,101,171,0.702) !important;
+  border: #31fdffb7 solid 1px;
+}
+
