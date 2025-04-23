@@ -67,6 +67,8 @@ body, html {
 
 .body-text, .robot-text, .last-text {
   background-color: rgba(0,51,97,0.576) !important;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border: #31fdffb7 solid 1px;
 }
 
