@@ -1,7 +1,7 @@
 const palavrasParaDestacar = ['**Boa-Hancock:**', '**boa-hancock:**', '**boahancock:**', '**BoaHancock:**']; // palavras que vão ficar braba
     const classeDaDiv = 'minha-div'; // a classe da div onde vai rolar a mágica
 
-    const divs = document.querySelectorAll(`.${classeDaDiv}`);
+    const divs = document.querySelectorAll(`.`);
 
     divs.forEach(div => {
       let textoOriginal = div.innerHTML;
