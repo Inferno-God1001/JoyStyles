@@ -43,6 +43,7 @@ body, html {
 
 .chat-header-main {
   z-index: 21;
+  border-radius: 0 0 17px 17px;
 }
 
 /*scenario content*/
@@ -70,10 +71,6 @@ body, html {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border: #31fdffb7 solid 1px;
-}
-
-.prefixx {
-  color: #8c0000;
 }
 
 /*indexJL End*/
