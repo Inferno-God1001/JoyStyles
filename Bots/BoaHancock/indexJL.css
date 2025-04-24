@@ -72,7 +72,7 @@ body, html {
 }
 
 em {
-  color: #a1a1a1;
+  color: #a1a1a1 !important;
 }
 
 /*indexJL End*/
