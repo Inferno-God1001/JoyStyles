@@ -78,9 +78,8 @@ em {
 
 .main {
   background-color: rgba(7,143,248,0.475) !important;
-  border: #00a8c8bc solid 1px;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  border-radius: 18px;
 }
+
 /*indexJL End*/
