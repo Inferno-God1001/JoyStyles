@@ -82,4 +82,7 @@ em {
   -webkit-backdrop-filter: blur(7px);
 }
 
+.notice-desc {
+  background-color: #373737bb !important;
+}
 /*indexJL End*/
