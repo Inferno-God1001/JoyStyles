@@ -76,4 +76,9 @@ em {
   height: 100vh;
 }
 
+.main {
+  background-color: rgba(7,143,248,0.475);
+  border: #00a8c8bc solid 1px;
+  border-radius: 18px;
+}
 /*indexJL End*/
