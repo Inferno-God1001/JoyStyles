@@ -83,6 +83,10 @@ em {
 }
 
 .notice-desc {
-  background-color: blue !important;
+  background-color: rgba(105,105,105,0.745) !important;
 }
 /*indexJL End*/
+
+/*
+This is a hyper-organized CSS file, and since I'm very forgetful, I might forget some Joyland classes — that's why I keep everything organized <3.
+*/
