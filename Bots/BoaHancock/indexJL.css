@@ -39,9 +39,10 @@ body, html {
   width: 100vw !important;
   height: auto;
   border-radius: 16px 16px 0 0;
+  background-color: #2e2e2e;
 }
 
-.chat-header-main {
+.chat-bg {
   z-index: 21;
   border-radius: 0 0 17px 17px;
 }
