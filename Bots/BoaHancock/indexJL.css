@@ -77,9 +77,10 @@ em {
 }
 
 .main {
-  background-color: rgba(7,143,248,0.475) !important;
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+  background-color: transparent !important;
+  opacity: 0.3;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 .notice-desc {
