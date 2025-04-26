@@ -76,7 +76,7 @@ em {
   height: 100vh;
 }
 
-main {
+.main {
   background-color: transparent !important;
   opacity: 0.3;
   backdrop-filter: blur(3px);
