@@ -76,18 +76,18 @@ em {
   height: 100vh;
 }
 
-.main {
+main {
   background-color: transparent !important;
   opacity: 0.3;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }
 
-notice-desc {
+.notice-desc {
   background-color: rgba(105,105,105,0.745) !important;
 }
 
-ant-dropdown-menu {
+.ant-dropdown-menu {
   background-color: #454545a6 !important;
   border-radius: 11px;
   backdrop-filter: blur(5px);
