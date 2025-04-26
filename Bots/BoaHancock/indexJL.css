@@ -94,22 +94,6 @@ em {
   -webkit-backdrop-filter: blur(5px);
 }
 
-.share-btn {
-  color: #005601;
-  animation: pulssy 1.5s infinite alternate;
-}
-
-@keyframes pulssy {
-  0% {
-   color: #005601;
-   transform: scale(1);
-}
-  100% {
-   color: #11ff0f;
-   transform: scale(1.05);
- }
-}
-
 /*indexJL End*/
 
 /*
