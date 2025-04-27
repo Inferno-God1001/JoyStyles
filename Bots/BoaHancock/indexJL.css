@@ -94,6 +94,10 @@ main {
   -webkit-backdrop-filter: blur(5px);
 }
 
+p {
+  color: white;
+}
+
 /*indexJL End*/
 
 /*
