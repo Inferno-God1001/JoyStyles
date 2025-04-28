@@ -1,51 +1,47 @@
-import requests
+// bot.js - JoylandBot integration script
 
-class Bot:
-    def __init__(self, dialogue_url):
-        self.dialogues = {}
-        self.load_dialogue(dialogue_url)
+class JoylandBot { constructor(dialogueUrl) { this.dialogues = []; this.loaded = false; this.loadDialogue(dialogueUrl); }
 
-    def load_dialogue(self, url):
-        response = requests.get(url)
-        if response.status_code == 200:
-            lines = response.text.splitlines()
-            current_speaker = None
-            current_text = []
-            last_user_message = None
+async loadDialogue(url) { try { const res = await fetch(url); if (!res.ok) throw new Error(Failed to fetch: ${res.status}); const text = await res.text(); this.parseDialogue(text); this.loaded = true; console.log("Dialogue loaded, entries:", this.dialogues.length); } catch (error) { console.error("Error loading dialogue:", error); } }
 
-            for line in lines:
-                line = line.strip()
+parseDialogue(text) { const lines = text.split(/\r?\n/); let current = null;
 
-                if line.startswith("user:<START>"):
-                    current_speaker = "user"
-                    current_text = []
-                elif line.startswith("char:<START>"):
-                    current_speaker = "char"
-                    current_text = []
-                elif line == "<END>":
-                    full_text = "\n".join(current_text).strip()
-                    if current_speaker == "user":
-                        last_user_message = full_text.lower()
-                    elif current_speaker == "char" and last_user_message:
-                        self.dialogues[last_user_message] = full_text
-                        last_user_message = None
-                    current_speaker = None
-                elif current_speaker:
-                    current_text.append(line)
-        else:
-            print(f"Erro ao baixar diálogo: {response.status_code}")
+for (let line of lines) {
+  line = line.trim();
+  if (line.startsWith('user:<START>')) {
+    current = { user: '', bot: '' };
+  } else if (line.startsWith('char:<START>')) {
+    // switch to bot
+    current.phase = 'bot';
+  } else if (line === '<END>') {
+    if (current && current.user && current.bot) {
+      this.dialogues.push(current);
+    }
+    current = null;
+  } else if (current) {
+    if (!current.phase) {
+      // in user phase
+      current.user += (current.user ? '\n' : '') + line;
+    } else {
+      // in bot phase
+      current.bot += (current.bot ? '\n' : '') + line;
+    }
+  }
+}
 
-    def get_response(self, user_message):
-        user_message = user_message.strip().lower()
-        return self.dialogues.get(user_message, "Desculpe, não entendi...")
+}
 
-# Criar o bot
-bot = Bot("https://inferno-god1001.github.io/JoyStyles/Bots/BoaHancock/dialogue.txt")
+// Levenshtein distance for fuzzy matching\ n  levenshtein(a, b) { const dp = Array.from({ length: a.length + 1 }, () => []); for (let i = 0; i <= a.length; i++) dp[i][0] = i; for (let j = 0; j <= b.length; j++) dp[0][j] = j; for (let i = 1; i <= a.length; i++) { for (let j = 1; j <= b.length; j++) { const cost = a[i - 1] === b[j - 1] ? 0 : 1; dp[i][j] = Math.min( dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost ); } } return dp[a.length][b.length]; }
 
-# Exemplo de interação (seria dentro do sistema real do bot)
-while True:
-    user_message = input("Você: ")
-    if user_message.lower() == "sair":
-        break
-    bot_response = bot.get_response(user_message)
-    print("Bot:", bot_response)
+findBestMatch(input) { input = input.toLowerCase().trim(); let best = { score: Infinity, bot: "Desculpe, não entendi..." }; for (let entry of this.dialogues) { const userText = entry.user.toLowerCase().trim(); if (userText === input) { // exact match return entry.bot; } const dist = this.levenshtein(input, userText); const norm = dist / Math.max(input.length, userText.length); if (norm < best.score) { best = { score: norm, bot: entry.bot }; } } // threshold, e.g., 40% difference return best.score < 0.4 ? best.bot : "Desculpe, não entendi..."; }
+
+async respond(message) { if (!this.loaded) { return "Carregando, por favor aguarde..."; } return this.findBestMatch(message); } }
+
+// Initialization and UI hookup (async () => { const bot = new JoylandBot( 'https://inferno-god1001.github.io/JoyStyles/Bots/BoaHancock/dialogue.txt' );
+
+const chatEl = document.getElementById('chat'); const inputEl = document.getElementById('userInput'); const sendBtn = document.getElementById('sendButton');
+
+function appendMessage(author, text) { const div = document.createElement('div'); div.classList.add(author === 'user' ? 'msg-user' : 'msg-bot'); div.innerText = text; chatEl.appendChild(div); chatEl.scrollTop = chatEl.scrollHeight; }
+
+sendBtn.addEventListener('click', async () => { const message = inputEl.value.trim(); if (!message) return; appendMessage('user', message); inputEl.value = ''; const reply = await bot.respond(message); appendMessage('bot', reply); }); })();
+
