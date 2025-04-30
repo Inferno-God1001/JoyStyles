@@ -91,6 +91,10 @@ p {
   color: white;
 }
 
+.reviews {
+  z-index: 80;
+}
+
 /*indexJL End*/
 
 /*
