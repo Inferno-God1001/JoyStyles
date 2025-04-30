@@ -95,6 +95,10 @@ p {
   z-index: 80;
 }
 
+.chat-main-container {
+  background-color: transparent !important;
+}
+
 /*indexJL End*/
 
 /*
