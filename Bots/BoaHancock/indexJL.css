@@ -25,13 +25,13 @@ body, html {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  z-index: 0;
   pointer-events: none;
 }
 
 .scroll-touch > * {
  position: relative;
- z-index: 0;
+ z-index: 1;
 }
 
 .chat-footer {
@@ -55,6 +55,7 @@ body, html {
 .intro {
   color: rgba(88,237,252,0.891) !important;
 }
+
 /*_*/
 
 .chat-header-ad, .ad, .hide {
