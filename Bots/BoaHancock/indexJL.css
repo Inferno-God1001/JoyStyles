@@ -109,6 +109,9 @@ p {
   background-color: black;
 }
 
+.bot-info-main {
+  z-index: 79;
+}
 /*indexJL End*/
 
 /*
