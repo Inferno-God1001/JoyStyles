@@ -97,6 +97,12 @@ p {
 
 .chat-main-container {
   background-color: transparent !important;
+  opacity: 0.5;
+}
+
+.chat-main-container {
+  background-color: transparent !important;
+  opacity: 0.5;
 }
 
 /*indexJL End*/
