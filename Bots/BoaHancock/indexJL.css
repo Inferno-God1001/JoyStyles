@@ -101,6 +101,7 @@ p {
 
 .bot-info-main {
   z-index: 79;
+  background: linear-gradient(to bottom, rgba(255,126,95,1), rgba(255,126,95,0));
 }
 /*indexJL End*/
 
