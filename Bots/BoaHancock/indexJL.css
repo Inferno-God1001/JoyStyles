@@ -112,6 +112,30 @@ p {
   z-index: 79;
 }
 
+.loading {
+  animation: loadingAnimation 4s linear infinite;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-color: #009fd9e0;
+  }
+  25% {
+    background-color: #0060ede5;
+  }
+  35% {
+    background-color: #1300ccdd;
+  }
+  75% {
+    background-color: #033ae9e3;
+  }
+  100% {
+    background-color: #009fd9e0;
+  }
+}
+
+
+
 /*indexJL End*/
 
 /*
