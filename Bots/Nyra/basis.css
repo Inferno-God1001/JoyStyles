@@ -16,5 +16,5 @@
 }
 
 html.white #themeButton {
-  border: black solid 1px;
+  border: black solid 1px !important;
 }
