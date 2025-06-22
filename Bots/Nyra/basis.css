@@ -15,6 +15,6 @@
   border: red solid 2px;
 }
 
-body.theme-white #themeButton {
+html.white #themeButton {
   border: black solid 1px;
 }
