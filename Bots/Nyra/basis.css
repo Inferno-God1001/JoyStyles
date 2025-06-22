@@ -14,3 +14,7 @@
   transform: scale(0.99);
   border: red solid 2px;
 }
+
+body.theme-white #themeButton {
+  border: black solid 1px;
+}
