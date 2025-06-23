@@ -45,6 +45,6 @@ em {
   color: rgb(0, 140, 255); !important;
 }
 
-.chat-footer, {
+.chat-footer {
   display: none !important;
 }
