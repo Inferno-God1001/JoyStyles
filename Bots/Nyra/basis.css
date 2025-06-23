@@ -36,6 +36,11 @@
   }
  }
 
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
 
   /* __________________________________ */
 
@@ -43,6 +48,10 @@
 
 html.light #themeButton {
   border: black solid 1px !important;
+}
+
+html.light .line {
+  background-color: black !important;
 }
 
   /* __________________________________ */
