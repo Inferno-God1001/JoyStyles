@@ -46,5 +46,6 @@ em {
 }
 
 .chat-footer {
-  display: none !important;
+  background-color: blue;
+  border-radius: 10px;
 }
