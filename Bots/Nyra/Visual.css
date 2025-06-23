@@ -49,3 +49,7 @@ em {
   background-color: blue;
   border-radius: 60%;
 }
+
+.chat-main-container {
+  display: none;
+}
