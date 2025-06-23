@@ -1,7 +1,7 @@
 /* dark theme configs */
 
 #themeButton {
-  border: white solid 1px;
+  border: red solid 1px;
   border-radius: 7px; 
   background: none;
   height: 44px;
@@ -10,11 +10,30 @@
   transition: 100ms;
   display: block;
   margin: 0 auto;
+  animation: pulse 5s aese;
 }
 
 #themeButton:active {
   transform: scale(0.99);
   border: red solid 2px;
+}
+
+@keyframe pulse {
+  0% {
+   border: red solid 2px;
+ }
+  30% {
+   border: blue solid 2px;
+  60% {
+   border: green solid 2px;
+  }
+  80% {
+   border: orange solid 2px;
+  }
+  100% {
+   border: pink solid 2px;
+  }
+ }
 }
 
   /* __________________________________ */
