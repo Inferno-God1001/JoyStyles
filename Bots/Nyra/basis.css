@@ -14,7 +14,7 @@
 
 #themeButton:active {
   transform: scale(0.99);
-  border: red solid 2px;
+  border: blue solid 2px;
 }
 
   /* __________________________________ */
