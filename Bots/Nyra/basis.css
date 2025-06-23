@@ -17,7 +17,7 @@
   border: red solid 2px;
 }
 
-@keyframe pulse {
+@keyframes pulse {
   0% {
    border: red solid 2px;
  }
