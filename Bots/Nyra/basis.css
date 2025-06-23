@@ -1,7 +1,7 @@
 /* dark theme configs */
 
 #themeButton {
-  border: white solid 1px;
+  border: black solid 1px;
   border-radius: 7px; 
   background: none;
   height: 44px;
@@ -14,7 +14,7 @@
 
 #themeButton:active {
   transform: scale(0.99);
-  border: blue solid 2px;
+  border: red solid 2px;
 }
 
   /* __________________________________ */
