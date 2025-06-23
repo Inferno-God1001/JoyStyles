@@ -20,19 +20,19 @@
 
 @keyframes pulse {
   0% {
-   border: red solid 2px;
+   border-color: red;
   }
   30% {
-   border: blue solid 2px;
+   border-color: blue;
   }
   60% {
-   border: green solid 2px;
+   border-color: green;
   }
   80% {
-   border: orange solid 2px;
+   border-color: orange;
   }
   100% {
-   border: pink solid 2px;
+   border-color: pink;
   }
  }
 
