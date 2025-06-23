@@ -10,7 +10,7 @@
   transition: 100ms;
   display: block;
   margin: 0 auto;
-  animation: pulse 5s ease infinite;
+  animation: pulse 10s ease infinite;
 }
 
 #themeButton:active {
