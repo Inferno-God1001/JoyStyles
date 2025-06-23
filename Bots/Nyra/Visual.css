@@ -48,8 +48,5 @@ em {
 .chat-footer {
   background-color: blue;
   border-radius: 60%;
-}
-
-.chat-main-container {
-  display: none;
+  z-index: 15;
 }
