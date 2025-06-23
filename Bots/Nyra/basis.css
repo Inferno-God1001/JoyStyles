@@ -1,6 +1,7 @@
 /* dark theme configs */
 
 #themeButton {
+  border: blue solid 2px;
   border-radius: 7px; 
   background: none;
   height: 44px;
