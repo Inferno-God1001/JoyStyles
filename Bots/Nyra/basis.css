@@ -1,3 +1,5 @@
+/* dark theme configs */
+
 #themeButton {
   border: white solid 1px;
   border-radius: 7px; 
@@ -15,8 +17,12 @@
   border: red solid 2px;
 }
 
-/*  */
+  /* __________________________________ */
+
+/* light theme configs */
 
 html.light #themeButton {
   border: black solid 1px !important;
 }
+
+  /* __________________________________ */
