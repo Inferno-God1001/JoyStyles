@@ -1,5 +1,5 @@
 #themeButton {
-  display: none;
+  display: none !important;
 }
 
 .line {
