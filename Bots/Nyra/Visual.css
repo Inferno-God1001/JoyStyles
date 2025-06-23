@@ -36,3 +36,11 @@
  position: relative;
  z-index: 1 !important;
 }
+
+.chat-header-ad, .ad, .hide {
+  display: none !important;
+}
+
+em {
+  color: rgb(0, 140, 255); !important;
+}
