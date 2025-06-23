@@ -45,4 +45,6 @@ em {
   color: rgb(0, 140, 255); !important;
 }
 
-.chat-footer main-fluid
+.chat-footer, .main-fluid {
+  display: none !important;
+}
