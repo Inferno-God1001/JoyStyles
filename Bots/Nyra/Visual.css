@@ -1,65 +1,69 @@
-#themeButton {
-  display: none !important;
+:root {
+  --color1: #d8d8d8;
+  --color2: #8f8f8f;
+  --color3: #464646;
 }
-
-.line {
-  display: none;
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  max-height: 450px;
+  border-radius: 0 6px 6px 6px;
 }
-
-.brBug {
-  display: none;
+.msg-greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: var(--color1);
+  text-align: center;
+  width: 100%;
 }
-
-.scroll-touch {
-  background-image: url('Imgss/b8877f4cad502a115935eab1a6f815ad.gif') !important;
-  background-color: #000000 !important;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
+.msg-greeting h1 {
+  color: var(--color2);
 }
-
-.scroll-touch::before {
+.msg-greeting iframe {
+  width: 100%;
+  height: 55vh;
+  border-radius: 0 6px 6px 6px;
+  max-height: 450px;
+}
+html.theme-dark .markdown-body strong {
+  color: #db9d47;
+}
+html.theme-dark .markdown-body em {
+  color: pink;
+}
+html.theme-dark .markdown-body p,
+html.theme-dark .markdown-body hr {
+  color: #edffd9;
+  border-color: pink;
+}
+html.theme-dark .body-text {
+  border: 1px double pink !important;
+}
+html.theme-dark .chat-main-container:before {
   content: "";
-  position: fixed;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-blend-mode: color !important;
+  background-image: linear-gradient(to top, pink 0%, transparent 100%),
+    url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F64.media.tumblr.com%2F6d7e25dcfc52c1637aa7872e47b4f3fd%2Fc07a87f8ebaff7b3-99%2Fs500x750%2F66c25ce9a4168fbd9b4c7a1c09306c20a4199b25.gif&f=1&nofb=1&ipt=c59187179e60b429fe87451df132fa418b1e20c781a1a8fa8d75c7dd099da1a5&ipo=images) !important;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 0 !important;
-  pointer-events: none;
-}
-
-.scroll-touch > * {
- position: relative;
- z-index: 1 !important;
-}
-
-.chat-header-ad, .ad, .hide {
-  display: none !important;
-}
-
-em {
-  color: rgb(0, 140, 255); !important;
-}
-
-.chat-footer {
-  background-color: blue;
-  border-radius: 60%;
-  z-index: 15;
-}
-
-.chat-main {
-  background: transparent !important;
-  border: red solid 3px;
-}
-
-.stream, .scroll-touch {
-  height: 100% !important;
-}
-
-.chat-main-container {
-  border: red solid 4px;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
