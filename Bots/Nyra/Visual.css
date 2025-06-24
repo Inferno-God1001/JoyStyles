@@ -63,3 +63,7 @@ em {
 .chat-main-container {
   border: blue solid 3px;
 }
+
+.chat-main-bg {
+  border: yellow solid 3px;
+}
