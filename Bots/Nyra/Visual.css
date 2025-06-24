@@ -53,5 +53,5 @@ em {
 
 .chat-main {
   background: transparent !important;
-  display: none;
+  display: none !important;
 }
