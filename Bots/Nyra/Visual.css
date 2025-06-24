@@ -57,7 +57,7 @@ em {
 }
 
 .stream, .scroll-touch {
-  height: 100% !important;
+  height: 100vh !important;
 }
 
 .chat-main-container {
