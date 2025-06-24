@@ -50,3 +50,7 @@ em {
   border-radius: 60%;
   z-index: 15;
 }
+
+.chat-main {
+  background: transparent !important;
+}
