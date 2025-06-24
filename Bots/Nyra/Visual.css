@@ -53,5 +53,5 @@ em {
 
 .chat-main {
   background: transparent !important;
-  display: none !important;
+  border: red solid 3px;
 }
