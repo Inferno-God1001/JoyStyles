@@ -69,3 +69,7 @@ em {
 .chat-main-bg {
   border: yellow solid 3px;
 }
+
+.wrap {
+  border: white solid 3px;
+}
