@@ -62,6 +62,7 @@ em {
   height: 100vh !important;
   border: green solid 3px;
   z-index: 999!important;
+  position: absolute !important;
 }
 
 .chat-main-container {
