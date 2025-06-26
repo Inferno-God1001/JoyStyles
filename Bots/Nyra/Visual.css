@@ -49,6 +49,7 @@ em {
   background-color: blue;
   border-radius: 60%;
   z-index: 15;
+  display: none;
 }
 
 .chat-main {
