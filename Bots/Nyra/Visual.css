@@ -73,3 +73,7 @@ em {
 .wrap {
   border: white solid 3px;
 }
+
+body, html {
+  background-color: red;
+}
