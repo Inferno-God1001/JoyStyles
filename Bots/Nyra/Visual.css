@@ -65,6 +65,7 @@ em {
 
 .chat-main-container {
   border: blue solid 3px;
+  background-color: red;
 }
 
 .chat-main-bg {
