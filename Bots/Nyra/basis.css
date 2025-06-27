@@ -76,7 +76,7 @@ html.light .line {
 }
 
 html.light .error {
-  animation: errorColor ease infinite;
+  animation: errorColor 3s ease infinite;
   display: block !important;
   margin: 0 auto;
 }
