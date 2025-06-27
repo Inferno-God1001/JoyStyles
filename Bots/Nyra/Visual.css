@@ -57,4 +57,5 @@ em {
   background: rgba(255, 255, 255, 0.1) !important;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
+  border-radius: 0 0 6px 6px;
 }
