@@ -42,6 +42,27 @@
   background-color: white;
 }
 
+.error {
+  animation: errorColor ease infinite;
+  display: block;
+  margin: 0 auto;
+}
+
+keyframes errorColor {
+  0% {
+  color: #ff1010;
+ }
+  30% {
+  color: #ca0000;
+ }
+  60% {
+  color: #af0000;
+ }
+  100% {
+  color: #740000;
+ }
+}
+
   /* __________________________________ */
 
 /* light theme configs */
