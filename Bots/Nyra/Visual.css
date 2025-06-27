@@ -55,7 +55,7 @@ em {
 .chat-main {
   background: transparent !important;
   border: red solid 3px;
-  background-color: red !important;
+  background-color: blue !important;
 }
 
 .stream, .scroll-touch {
