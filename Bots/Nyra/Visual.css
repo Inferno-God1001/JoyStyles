@@ -49,12 +49,13 @@ em {
   background-color: blue;
   border-radius: 60%;
   z-index: 15;
+  box-shadow: none !important;
 }
 
 .chat-main {
   background: transparent !important;
   border: red solid 3px;
-  background-color: red;
+  background-color: red !important;
 }
 
 .stream, .scroll-touch {
