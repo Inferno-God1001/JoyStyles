@@ -60,3 +60,7 @@ em {
   border-radius: 100px;
   width: 40px;
 }
+
+.chat-bg {
+  background: transparent;
+}
