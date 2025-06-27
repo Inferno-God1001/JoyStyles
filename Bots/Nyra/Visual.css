@@ -50,5 +50,5 @@ em {
 }
 
 .chat-footer {
-  background: transparent;
+  background: linear-gradient(to bottom, #ffffff, #000000);
 }
