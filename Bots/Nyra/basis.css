@@ -46,7 +46,7 @@
   display: none;
 }
 
-keyframes errorColor {
+@keyframes errorColor {
   0% {
   color: #ff1010;
  }
