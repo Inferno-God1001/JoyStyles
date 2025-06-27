@@ -42,7 +42,7 @@ em {
 
 .ant-dropdown-menu {
   background-color: #454545a6 !important;
-  border-radius: 15px;
+  border-radius: 15px !important;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
