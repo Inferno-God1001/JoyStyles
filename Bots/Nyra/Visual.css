@@ -64,3 +64,7 @@ em {
 .mobile-title {
   background: transparent;
 }
+
+.main-fluid {
+  background-color: red;
+}
