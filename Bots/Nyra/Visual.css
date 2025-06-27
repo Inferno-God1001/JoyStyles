@@ -48,5 +48,5 @@ em {
 }
 
 .editing {
-  background-color: orange !important;
+  background: linear-gradient(to bottom right, #d82500, #e96200);
 }
