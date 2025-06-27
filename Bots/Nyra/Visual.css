@@ -10,7 +10,7 @@
   display: none;
 }
 
-.chat-main {
+.main-fluid {
   background-image: url('Imgss/b8877f4cad502a115935eab1a6f815ad.gif') !important;
   background-color: #000000 !important;
   background-attachment: fixed;
@@ -20,7 +20,7 @@
   z-index: 0;
 }
 
-.chat-main::before {
+.main-fluid::before {
   content: "";
   position: fixed;
   top: 0;
@@ -32,7 +32,7 @@
   pointer-events: none;
 }
 
-.chat-main > * {
+.main-fluid > * {
  position: relative;
  z-index: 1 !important;
 }
@@ -63,8 +63,4 @@ em {
 
 .mobile-title {
   background: transparent;
-}
-
-.main-fluid {
-  background-color: red;
 }
