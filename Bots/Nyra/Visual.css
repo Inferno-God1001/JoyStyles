@@ -18,7 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
-  color: white;
+  color: white !important;
 }
 
 .chat-header-ad, .ad, .hide {
@@ -56,5 +56,5 @@ em {
 }
 
 textarea {
-  background: transparent;
+  background: transparent !important;
 }
