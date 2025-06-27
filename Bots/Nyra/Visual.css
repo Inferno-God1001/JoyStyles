@@ -52,3 +52,9 @@ em {
 .chat-footer {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
 }
+
+.chat-header-main {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
