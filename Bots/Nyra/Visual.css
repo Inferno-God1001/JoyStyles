@@ -18,7 +18,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
-  color: white !important;
 }
 
 .chat-header-ad, .ad, .hide {
@@ -31,12 +30,10 @@ em {
 
 .scroll-touch {
   background: transparent;
-  color: white;
 }
 
 .chat-footer {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
-  color: white;
 }
 
 .mobile-title {
@@ -48,7 +45,6 @@ em {
   border-radius: 15px !important;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  color: white;
 }
 
 .editing {
