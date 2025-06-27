@@ -48,10 +48,12 @@
 
 html.light #themeButton {
   border: black solid 1px !important;
+  display: none;
 }
 
 html.light .line {
   background-color: black !important;
+  display: none;
 }
 
   /* __________________________________ */
