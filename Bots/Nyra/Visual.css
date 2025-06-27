@@ -10,7 +10,7 @@
   display: none;
 }
 
-.main-fluid {
+.chat-main {
   background-image: url('Imgss/b8877f4cad502a115935eab1a6f815ad.gif') !important;
   background-color: #000000 !important;
   background-attachment: fixed;
@@ -20,7 +20,7 @@
   z-index: 0;
 }
 
-.main-fluid::before {
+.chat-main::before {
   content: "";
   position: fixed;
   top: 0;
@@ -32,7 +32,7 @@
   pointer-events: none;
 }
 
-.main-fluid > * {
+.chat-main > * {
  position: relative;
  z-index: 1 !important;
 }
