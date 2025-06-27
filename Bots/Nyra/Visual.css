@@ -47,6 +47,6 @@ em {
   -webkit-backdrop-filter: blur(2px);
 }
 
-.send-box {
+.editing {
   background-color: orange !important;
 }
