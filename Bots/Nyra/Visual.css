@@ -59,3 +59,8 @@ textarea {
   color: white !important;
   background-color: gray !important;
 }
+
+.robot-text, .body-text {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
