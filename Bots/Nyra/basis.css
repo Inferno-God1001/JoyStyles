@@ -43,9 +43,7 @@
 }
 
 .error {
-  animation: errorColor ease infinite;
-  display: block;
-  margin: 0 auto;
+  display: none;
 }
 
 keyframes errorColor {
@@ -75,6 +73,12 @@ html.light #themeButton {
 html.light .line {
   background-color: black !important;
   display: none;
+}
+
+html.light. error {
+  animation: errorColor ease infinite;
+  display: block !important;
+  margin: 0 auto;
 }
 
   /* __________________________________ */
