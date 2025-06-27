@@ -48,5 +48,5 @@ em {
 }
 
 .send-box {
-  background-color: orange;
+  background-color: orange !important;
 }
