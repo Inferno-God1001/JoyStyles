@@ -36,12 +36,13 @@ em {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
 }
 
-.chat-header- {
-  background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
-}
-
 .mobile-title {
   background: transparent;
+}
+
+.ant-dropdown-menu {
+  background-color: #454545a6;
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
