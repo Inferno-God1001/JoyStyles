@@ -54,3 +54,8 @@ em {
 textarea {
   background: transparent !important;
 }
+
+.cancel-btn {
+  color: white !important;
+  background-color: gray !important;
+}
