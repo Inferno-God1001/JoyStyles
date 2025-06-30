@@ -63,4 +63,5 @@ textarea {
 .robot-text, .body-text {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
+  border-radius: 0 13px 13px 13px !important;
 }
