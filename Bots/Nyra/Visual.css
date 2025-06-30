@@ -60,8 +60,14 @@ textarea {
   background-color: gray !important;
 }
 
-.robot-text, .body-text {
+.robot-text {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border-radius: 0 13px 13px 13px !important;
+}
+
+.body-text {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 13px 13px 13px 0 !important;
 }
