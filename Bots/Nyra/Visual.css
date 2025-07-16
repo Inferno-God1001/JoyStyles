@@ -73,5 +73,5 @@ textarea {
 }
 
 .avatar-img-content {
-  top: 400px;
+  top: 400px !important;
 }
