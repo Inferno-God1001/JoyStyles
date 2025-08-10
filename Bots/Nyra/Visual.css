@@ -26,6 +26,8 @@
 
 em {
   color: #939393; !important;
+  background-color: none !important;
+  background: none !important;
 }
 
 .scroll-touch {
