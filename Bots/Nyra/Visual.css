@@ -81,3 +81,8 @@ strong {
   background-color: red;
   border-radius: 10px;
 }
+
+p em {
+  background-color: none !important;
+  background: none !important;
+}
