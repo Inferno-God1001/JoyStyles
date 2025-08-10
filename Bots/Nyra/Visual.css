@@ -69,11 +69,11 @@ textarea {
 }
 
 .robot-text p {
-  color: #090909;
+  color: white;
 }
 
 .robot-text strong {
-  color: rgb(49,49,49);
+  color: linear-gradient(to bottom right, #999999, #212121);
 }
 
 em {
