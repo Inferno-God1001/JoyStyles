@@ -83,6 +83,6 @@ strong {
 }
 
 p em {
-  background-color: none !important;
-  background: none !important;
+  background-color: transparent !important;
+  background: transparent !important;
 }
