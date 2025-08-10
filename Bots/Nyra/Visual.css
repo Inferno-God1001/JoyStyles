@@ -71,3 +71,13 @@ textarea {
   -webkit-backdrop-filter: blur(6px);
   border-radius: 13px 0 13px 13px !important;
 }
+
+p {
+  background-color: black;
+  border-radius: 10px;
+}
+
+strong {
+  background-color: black;
+  border-radius: 10px;
+}
