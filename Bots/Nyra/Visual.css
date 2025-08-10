@@ -88,3 +88,8 @@ textarea {
   background: none !important;
   background-color: none !important;
 }
+
+.web {
+  background-image: url('https://images.vexels.com/media/users/3/202569/isolated/lists/c67850a631e8fe770bb9aeaa09be6bf1-dia-das-bruxas-com-teia-de-aranha-de-canto.png')
+  height: 40px;
+}
