@@ -69,16 +69,14 @@ textarea {
 }
 
 .robot-text p {
-  background-color: green;
-  border-radius: 10px;
+  color: #090909;
 }
 
 .robot-text strong {
-  background-color: red;
-  border-radius: 10px;
+  color: rgb(49,49,49);
 }
 
-.robot-text p em {
+em {
   color: #939393 !important;
   background-color: blue !important;
 }
