@@ -81,6 +81,7 @@ em {
 }
 
 .web {
+  display: flex;
   position: absolute;
   height: 22px;
 }
