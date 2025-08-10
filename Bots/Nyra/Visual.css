@@ -74,17 +74,17 @@ textarea {
   border-radius: 13px 0 13px 13px !important;
 }
 
-p {
+.robot-text p {
   background-color: black;
   border-radius: 10px;
 }
 
-strong {
+.robot-text strong {
   background-color: red;
   border-radius: 10px;
 }
 
-p em {
-  background-color: transparent !important;
-  background: transparent !important;
+.robot-text em {
+  background: none !important;
+  background-color: none !important;
 }
