@@ -78,7 +78,7 @@ textarea {
   border-radius: 10px;
 }
 
-.robot-text em {
+.robot-text p em {
   color: #939393 !important;
   background-color: blue !important;
   background: none !important;
