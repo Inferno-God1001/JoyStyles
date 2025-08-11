@@ -1,0 +1,1 @@
+The license isn’t too strict, and you can use the repository for anything you like—just don’t claim to be the “owner of the repository” or simply copy it and say you made it, because that would be a low blow to me. 😔
