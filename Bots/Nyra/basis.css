@@ -3,7 +3,7 @@
 #themeButton {
   border: blue solid 1px;
   border-radius: 7px; 
-  background: none;
+  background-color: #4e4e4e;
   height: 44px;
   width: 165px;
   cursor: pointer;
