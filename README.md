@@ -1,9 +1,9 @@
-  Olá, pessoal! Aqui quem fala é o chandom. Eu vim falar desse repositório e qual é o intuito dele!
+Hello, everyone! Chandom here. I’m here to talk about this repository and its purpose!
 
-  Bom, os arquivos são a maioria em CSS e eu uso o inspecionar do navegador para adquirir as classes ou id dos objetos do site do joyland.ai para poder editar completamente a página do meu bot.
+Most of the files are in CSS, and I use the browser’s inspect tool to grab the classes or IDs from the joyland.ai website so I can fully customize my bot’s page.
 
-  Se você veio aqui para criar os seus próprios temas dinâmicos, infelizmente não posso te ajudar hospitalarmente mas eu posso te falar as classes de cada elemento para tentar te ajudar!
+If you came here looking to create your own dynamic themes, unfortunately, I can’t provide full-on support, but I can share the classes for each element to try and help you out!
 
-  Se você ainda não sabe HTML e CSS, não se preocupe! ambas são MUITO fácil de aprender além, graças a tecnologia, temos aulas online ensinando ambos em diversas línguas pelo mundo.❤️
+If you don’t know HTML or CSS yet, don’t worry! Both are VERY easy to learn, and thanks to technology, we have online lessons teaching them in many different languages around the world. ❤️
 
-assinado — Chandom
+Signed — Chandom
