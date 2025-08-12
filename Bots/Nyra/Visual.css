@@ -63,16 +63,16 @@ textarea {
 
 .user-text {
   border-radius: 13px 0 13px 13px !important;
-  background-color: #2a2a2a !important;
+  background-color: #2a2a2a9d !important;
 }
 
 .robot-text {
   border-radius: 0 13px 13px 13px !important;
-  background-color: #000000 !important;
+  background-color: #0000009d !important;
 }
 
 .loading {
-  background-color: #424242;
+  background-color: #4242429c;
 }
 
 .robot-text p {
