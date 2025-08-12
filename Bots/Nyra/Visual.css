@@ -71,6 +71,10 @@ textarea {
   background-color: #000000;
 }
 
+.loading {
+  background-color: #424242 !important;
+}
+
 .robot-text p {
   color: white;
 }
