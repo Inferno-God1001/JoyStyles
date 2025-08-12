@@ -72,7 +72,7 @@ textarea {
 }
 
 .loading {
-  background-color: #4242429c;
+  background-color: #4242429c !important;
 }
 
 .robot-text p {
