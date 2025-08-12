@@ -56,16 +56,19 @@ textarea {
   background-color: gray !important;
 }
 
-.robot-text {
+.robot-text, .user-text {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  border-radius: 0 13px 13px 13px !important;
 }
 
-.tooShort-user-text {
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+.user-text {
   border-radius: 13px 0 13px 13px !important;
+  background-color: #2a2a2a;
+}
+
+.robot-text {
+  border-radius: 0 13px 13px 13px !important;
+  background-color: #000000;
 }
 
 .robot-text p {
