@@ -7,5 +7,12 @@
   height: 50px;
   width: auto;
   border-radius: 10px;
-  padding: 10px
+  padding: 10px;
+  box-shadow: 0px 0px 14px rgba(255,255,255,0.3);
+  cursos: pointer;
+}
+
+.theme:active {
+  border-color: red;
+  box-shadow: 1px 1px 14px rgba(255,255,255,0.3);
 }
