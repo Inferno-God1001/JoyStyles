@@ -112,3 +112,11 @@ em {
   color: #da0064;
   font-size: 18px;
 }
+
+.local {
+  color: white;
+  background-color: #770027;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 5px;
+}
