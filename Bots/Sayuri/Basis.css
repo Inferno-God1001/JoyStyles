@@ -1,1 +1,92 @@
+/* dark theme configs */
 
+#themeButton {
+  border: blue solid 1px;
+  border-radius: 7px; 
+  background-color: #1e1e1e;
+  height: 44px;
+  width: 165px;
+  cursor: pointer;
+  transition: 100ms;
+  display: block;
+  margin: 0 auto;
+  animation: pulse 10s ease infinite;
+}
+
+#themeButton:active {
+  transform: scale(0.99);
+  border: red solid 2px;
+}
+
+@keyframes pulse {
+  0% {
+   border-color: red;
+  }
+  30% {
+   border-color: blue;
+  }
+  60% {
+   border-color: green;
+  }
+  80% {
+   border-color: orange;
+  }
+  100% {
+   border-color: pink;
+  }
+ }
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+
+.error {
+  display: none;
+}
+
+@keyframes errorColor {
+  0% {
+  color: #ff1010;
+ }
+  30% {
+  color: #ca0000;
+ }
+  60% {
+  color: #af0000;
+ }
+  100% {
+  color: #740000;
+ }
+}
+
+.web {
+  display: none;
+}
+
+.v {
+  height: 8px;
+}
+
+  /* __________________________________ */
+
+/* light theme configs */
+
+html.light #themeButton {
+  border: black solid 1px !important;
+  display: none;
+}
+
+html.light .line {
+  background-color: black !important;
+  display: none;
+}
+
+html.light .error {
+  animation: errorColor 3s ease infinite;
+  display: block !important;
+  margin: 0 auto;
+}
+
+  /* __________________________________ */
