@@ -1,1 +1,107 @@
-o
+#themeButton {
+  display: none !important;
+}
+
+.line {
+  display: none;
+}
+
+.brBug {
+  display: none;
+}
+
+.chat-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Imgss/2070f812d6a581d5782c2df2f13165e8.gif') !important;
+  background-color: #000000 !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.chat-header-ad, .ad, .hide {
+  display: none !important;
+}
+
+.scroll-touch {
+  background: transparent;
+}
+
+.chat-footer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.mobile-title {
+  background: transparent;
+}
+
+.ant-dropdown-menu {
+  background-color: #454545a6 !important;
+  border-radius: 15px !important;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.editing {
+  background: linear-gradient(to bottom right, #0c0c0c, #323232) !important;
+}
+
+textarea {
+  background: transparent !important;
+}
+
+.cancel-btn {
+  color: white !important;
+  background-color: gray !important;
+}
+
+.robot-text, .user-text, .loading {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.user-text {
+  border-radius: 13px 0 13px 13px !important;
+  background-color: #2a2a2a9d !important;
+}
+
+.robot-text {
+  border-radius: 0 13px 13px 13px !important;
+  background-color: #0000009d !important;
+}
+
+.loading {
+  background-color: #4242429c !important;
+}
+
+.robot-text p {
+  color: white;
+}
+
+.robot-text strong {
+  background: linear-gradient(to bottom right, #999999, #212121); 
+  padding-left: 4px; 
+  padding-right: 4px; 
+  border-radius: 5px;
+}
+
+em {
+  color: #939393 !important;
+}
+
+.web {
+  display: flex !important;
+  position: absolute;
+  height: 35px; 
+  left: -2px;
+  top: -2px;
+}
+
+.main {
+  background-color: #1b1b1bc0 !important;
+}
+
+.intro {
+  color: white !important;
+}
