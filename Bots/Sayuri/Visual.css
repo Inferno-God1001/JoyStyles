@@ -105,3 +105,10 @@ em {
 .intro {
   color: white !important;
 }
+
+.bot-title {
+  display: flex;
+  justify-content: center;
+  color: #da0064;
+  font-size: 18px;
+}
