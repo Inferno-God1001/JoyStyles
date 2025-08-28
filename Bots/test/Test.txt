@@ -1,1 +1,1 @@
-explain("History of World War II", detals=False)
+explain("History of World War II", details=False)
