@@ -1,1 +1,8 @@
-explain("History of World War II", details=False)
+ex = explain!('Explique um computador');
+
+output { 
+  ChatGPT_personality[Sad];
+  ChatGPT_characters(~400);
+  ChatGPT_details(False)
+  show(ex_Response);
+};
