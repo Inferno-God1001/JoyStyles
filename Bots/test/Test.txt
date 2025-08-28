@@ -1,8 +1,14 @@
-ex = explain!('Explique um computador');
+Global {
+  ChatGPT_explainLink(False);
+  ChatGPT_executeScript(True);
+  ChatGPT_orderLevel(heavy);
+};
 
-output { 
+ex = user!('Explique um computador');
+
+Output { 
   ChatGPT_personality[Sad];
   ChatGPT_characters(~400);
   ChatGPT_details(False)
-  show(ex_Response);
+  show(ex_response);
 };
